@@ -1,0 +1,55 @@
+# pip-compile --output-file requirements.txt requirements.in
+# pip-sync
+# pip install -r requirements.txt
+
+# install neural_shift
+# -e .
+
+
+# DS
+# ------------------------------------------------------------------------------
+numpy
+pandas
+# faiss-cpu
+sklearn
+seaborn
+matplotlib
+
+
+# DL
+# ------------------------------------------------------------------------------
+torch
+torchvision
+pytorch_toolbelt
+torchtext
+pytorch-ignite
+transformers
+
+
+# CV
+# ------------------------------------------------------------------------------
+opencv-python
+pillow
+PyQt5
+pyqtgraph
+
+
+# Other
+# ------------------------------------------------------------------------------
+tqdm
+PyYAML
+# kaggle
+# sympy
+
+
+# IDE
+# ------------------------------------------------------------------------------
+jupyterlab
+nodejs
+jupyter_contrib_nbextensions
+# jupyter contrib nbextension install --user
+ipywidgets
+# jupyter nbextension enable --py widgetsnbextension
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+setuptools
+mlflow
