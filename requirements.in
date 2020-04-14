@@ -23,12 +23,12 @@ torchvision
 pytorch_toolbelt
 torchtext
 pytorch-ignite
-transformers
+# transformers
 
 
 # CV
 # ------------------------------------------------------------------------------
-opencv-python
+opencv-python==4.1.2.30
 pillow
 PyQt5
 pyqtgraph
